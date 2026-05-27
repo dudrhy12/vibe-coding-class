@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  /* 페이지 바닥은 순흑 캔버스, 본문 텍스트는 body 색, 기본 웨이트는 Light(300) */
+  body {
+    @apply bg-canvas text-body font-sans font-light antialiased;
+  }
+}
