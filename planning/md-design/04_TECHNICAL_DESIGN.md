@@ -1,6 +1,6 @@
 # Technical Design
 
-> 본 문서는 `docs/ARCHITECTURE.md`, `docs/UX_UI_SPEC.md`, `docs/REQUIREMENTS_SPEC.md`를 기반으로 한다.
+> 본 문서는 `docs/ARCHITECTURE.md`, `planning/md-design/03_UX_UI_SPEC.md`, `planning/md-design/02_REQUIREMENTS_SPEC.md`를 기반으로 한다.
 
 ## 1. Architecture Overview
 
@@ -30,7 +30,7 @@ User
 | Frontend Framework | React 18 (Vite) | CRA 대신 Vite — 빌드 속도 |
 | Language | TypeScript | strict 모드 |
 | Routing | React Router v6 | 클라이언트 사이드 |
-| Style | Tailwind CSS | `docs/UX_UI_SPEC.md` 컬러·타이포 기준 |
+| Style | Tailwind CSS | `planning/md-design/03_UX_UI_SPEC.md` 컬러·타이포 기준 |
 | HTTP Client | axios | REST API 통신 |
 | Backend Framework | Spring Boot 3.x (Java 21) | Maven 또는 Gradle |
 | API 방식 | REST (JSON) | |

@@ -1,6 +1,6 @@
 # Delivery Plan
 
-> 본 문서는 `docs/TECHNICAL_DESIGN.md`, `docs/REQUIREMENTS_SPEC.md`를 기반으로 한다.
+> 본 문서는 `planning/md-design/04_TECHNICAL_DESIGN.md`, `planning/md-design/02_REQUIREMENTS_SPEC.md`를 기반으로 한다.
 
 ## 1. 문서 목적
 
@@ -64,7 +64,7 @@
 |---|---|---|
 | Mock data | 자격증·공고 예시 데이터 | 화면에서 샘플 데이터 확인 가능 |
 | Basic layout | `AppLayout` (SideNav + AppHeader) | 화면이 큰 틀에서 정돈됨 |
-| Basic styling | `docs/UX_UI_SPEC.md` 기준 다크 배경 + 컬러 토큰 | 화면이 읽을 수 있는 수준 |
+| Basic styling | `planning/md-design/03_UX_UI_SPEC.md` 기준 다크 배경 + 컬러 토큰 | 화면이 읽을 수 있는 수준 |
 | SideNav placeholder | 5개 카테고리 메뉴 표시 | 아직 라우팅 없어도 UI 표시 |
 
 ---
@@ -229,8 +229,8 @@ docs/ 폴더의 설계 문서를 참고해서
 좋습니다. 제안한 계획대로 구현해 주세요.
 
 조건:
-- docs/TECHNICAL_DESIGN.md의 Source Structure를 따르세요.
-- docs/UX_UI_SPEC.md의 컬러와 레이아웃을 따르세요.
+- planning/md-design/04_TECHNICAL_DESIGN.md의 Source Structure를 따르세요.
+- planning/md-design/03_UX_UI_SPEC.md의 컬러와 레이아웃을 따르세요.
 - 복잡한 기능은 만들지 마세요.
 - CRUD 전체는 구현하지 마세요.
 - 오늘은 route, 화면 shell, 타입, placeholder까지만 구현하세요.
@@ -244,7 +244,7 @@ docs/ 폴더의 설계 문서를 읽고
 REQUIREMENTS_SPEC.md의 FR-001~FR-004를 구현해 주세요.
 
 조건:
-- docs/TECHNICAL_DESIGN.md의 구조를 따르세요.
+- planning/md-design/04_TECHNICAL_DESIGN.md의 구조를 따르세요.
 - Spring Boot REST API와 React 프론트엔드를 함께 구현하세요.
 - 범위 밖의 기능은 추가하지 마세요.
 - 구현 전에 수정할 파일 목록과 순서를 먼저 제안하세요.
@@ -261,9 +261,9 @@ REQUIREMENTS_SPEC.md의 FR-001~FR-004를 구현해 주세요.
 | Requirement Coverage | 요구사항이 빠짐없이 구현되었는가? |
 | Scope Control | 불필요한 기능이 추가되지 않았는가? |
 | Implementation Order | 구현 순서가 자연스러웠는가? |
-| File Structure | `docs/TECHNICAL_DESIGN.md`의 구조를 따랐는가? |
+| File Structure | `planning/md-design/04_TECHNICAL_DESIGN.md`의 구조를 따랐는가? |
 | Code Quality | 중복과 복잡도가 적절한가? |
-| UI Consistency | `docs/UX_UI_SPEC.md`와 `docs/DESIGN.md`를 따랐는가? |
+| UI Consistency | `planning/md-design/03_UX_UI_SPEC.md`와 `docs/DESIGN.md`를 따랐는가? |
 | Verifiability | 테스트 또는 QA로 확인하기 쉬운가? |
 | Claude Response Quality | 계획, 요약, 검증 설명이 명확했는가? |
 
@@ -278,7 +278,7 @@ REQUIREMENTS_SPEC.md의 FR-001~FR-004를 구현해 주세요.
 | 문서와 구현이 어긋남 | 구현 전 planning-review 프롬프트 실행 |
 | OpenSpec이 과하게 커짐 | task를 10~20분 단위로 제한 |
 | Vite + React 셋업 이슈 | `pnpm create vite` 템플릿 사용 |
-| CORS 이슈 (3회차) | `docs/TECHNICAL_DESIGN.md §6` CorsConfig 참고 |
+| CORS 이슈 (3회차) | `planning/md-design/04_TECHNICAL_DESIGN.md §6` CorsConfig 참고 |
 | 학생별 진도 차이 | Must Have 중심으로 진행 |
 
 ---

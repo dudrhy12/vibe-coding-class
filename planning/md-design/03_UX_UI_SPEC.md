@@ -1,6 +1,6 @@
 # UX / UI Spec
 
-> 본 문서는 `docs/PRODUCT_BRIEF.md`, `docs/REQUIREMENTS_SPEC.md`를 기반으로 작성되었다.
+> 본 문서는 `planning/md-design/01_PRODUCT_BRIEF.md`, `planning/md-design/02_REQUIREMENTS_SPEC.md`를 기반으로 작성되었다.
 
 ## 1. Design Reference
 

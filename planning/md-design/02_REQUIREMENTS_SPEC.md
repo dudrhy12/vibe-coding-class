@@ -1,6 +1,6 @@
 # Requirements Spec
 
-> 본 문서는 `docs/PRODUCT_BRIEF.md`의 MVP 범위를 기준으로 한다.
+> 본 문서는 `planning/md-design/01_PRODUCT_BRIEF.md`의 MVP 범위를 기준으로 한다.
 
 ## 1. Actors
 
