@@ -40,7 +40,7 @@
 - App Page shell이 있다.
 - 핵심 타입이 정의되어 있다.
 - 주요 컴포넌트 placeholder가 있다.
-- mock data 또는 빈 상태가 준비되어 있다.
+- mock data (백엔드 연동 전 임시 정적 배열) 또는 빈 상태가 준비되어 있다.
 - `pnpm dev`로 실행 가능하다.
 
 ---
