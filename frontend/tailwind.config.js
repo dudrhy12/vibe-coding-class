@@ -27,6 +27,9 @@ export default {
         // Semantic
         warning: '#f4b400',
         success: '#0fa336',
+        // Accent
+        coral: '#FF6B6B',
+        mint: '#4ECDC4',
       },
       spacing: {
         // 4px 베이스

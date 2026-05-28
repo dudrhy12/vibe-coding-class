@@ -39,3 +39,29 @@ export interface Activity {
   tags?: string[]
   createdAt: string
 }
+
+export interface Resume {
+  id: number
+  title: string
+  content: string
+  charLimit: number
+  company?: string
+  contentLength: number
+  createdAt: string
+  updatedAt: string
+}
+
+export interface AIReviewResult {
+  original: string
+  suggestions: string
+}
+
+export interface PortfolioItem {
+  id: number
+  name: string
+  startDate?: string
+  endDate?: string
+  techs: string[]
+  description?: string
+  linkUrl?: string
+}
