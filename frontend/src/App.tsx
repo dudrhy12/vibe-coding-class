@@ -3,8 +3,10 @@ import { MarketingLayout } from './layouts/MarketingLayout'
 import { AppShellLayout } from './layouts/AppShellLayout'
 import { Landing } from './routes/Landing'
 import { AppDashboard } from './routes/AppDashboard'
+import { CertsPage } from './pages/CertsPage'
+import { JobsPage } from './pages/JobsPage'
+import { ActivitiesPage } from './pages/ActivitiesPage'
 
-// 두 시각 언어를 레이아웃으로 분리: / = 마케팅(BMW M 풀적용), /app = 대시보드 셸
 export function App() {
   return (
     <BrowserRouter>
@@ -14,6 +16,9 @@ export function App() {
         </Route>
         <Route element={<AppShellLayout />}>
           <Route path="/app" element={<AppDashboard />} />
+          <Route path="/app/certs" element={<CertsPage />} />
+          <Route path="/app/jobs" element={<JobsPage />} />
+          <Route path="/app/activities" element={<ActivitiesPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
