@@ -51,3 +51,8 @@ build/
 
 # Testing
 coverage/
+frontend/test-results/
+frontend/playwright-report/
+
+# Vercel
+.vercel/
