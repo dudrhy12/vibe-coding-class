@@ -6,6 +6,8 @@ import { AppDashboard } from './routes/AppDashboard'
 import { CertsPage } from './pages/CertsPage'
 import { JobsPage } from './pages/JobsPage'
 import { ActivitiesPage } from './pages/ActivitiesPage'
+import { ResumePage } from './pages/ResumePage'
+import { PortfolioPage } from './pages/PortfolioPage'
 
 export function App() {
   return (
@@ -19,6 +21,8 @@ export function App() {
           <Route path="/app/certs" element={<CertsPage />} />
           <Route path="/app/jobs" element={<JobsPage />} />
           <Route path="/app/activities" element={<ActivitiesPage />} />
+          <Route path="/app/resume" element={<ResumePage />} />
+          <Route path="/app/portfolio" element={<PortfolioPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
