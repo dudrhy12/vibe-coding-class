@@ -58,3 +58,10 @@ frontend/playwright-report/
 .vercel/
 .vercel
 .env*
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
